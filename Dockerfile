@@ -1,3 +1,4 @@
+# first commit, not used anymore
 FROM node:latest
 MAINTAINER Diogo Bratti
 ENV PORT=3000

@@ -1,3 +1,19 @@
+# alura-docker
+Projeto do curso de Docker
+
+Instalação:  https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04
+
+O Docker Compose não é instalado por padrão no Linux, então você deve instalá-lo por fora. Para tal, baixe-o na sua versão mais atual, que pode ser visualizada no seu GitHub ( https://github.com/docker/compose/releases ), executando o comando abaixo:
+
+sudo curl -L https://github.com/docker/compose/releases/download/1.15.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+Após isso, dê permissão de execução para o docker-compose:
+
+sudo chmod +x /usr/local/bin/docker-compose
+Pronto, o Docker Compose já está instalado no seu Linux!
+
+
+
+
 CURSO DE DOCKER DA ALURA
 
 Nessa aula você:
